@@ -1,0 +1,19 @@
+#contact__greeting {
+  margin: 10px auto;
+}
+
+#contact__email, #contact__email:visited {
+  color: black;
+}
+
+#contact__socials {
+  margin: 10px auto;
+}
+
+.contact__socials--icon {
+  margin: 10px
+}
+
+#contact__madeby--icon {
+  color: turquoise
+}
