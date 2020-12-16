@@ -1,0 +1,35 @@
+#greeting {
+  margin-top: 60px
+}
+
+#greeting__name {
+  margin: 10px
+}
+
+#greeting__description {
+  width: 45%;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#greeting__info {
+  margin: 10px;
+  width: 65%;
+  margin: auto
+}
+
+#greeting__button, #greeting__button:visited {
+  display: inline-block;
+  background: black;
+  text-decoration: none;
+  color: white;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  margin: 15px;
+}

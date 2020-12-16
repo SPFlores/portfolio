@@ -2,7 +2,8 @@
   color: gray;
   margin-bottom: 10px;
   width: 85%;
-  margin: auto
+  margin: auto;
+  margin-top: 80px;
 }
 
 .navbar__item, .navbar__link {

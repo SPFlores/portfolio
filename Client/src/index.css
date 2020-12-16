@@ -10,5 +10,6 @@ code {
 }
 
 .sectionHeading {
-  text-align: center
+  text-align: center;
+  margin-top: 60px
 }
