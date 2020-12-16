@@ -4,7 +4,7 @@ import Greeting from '../Greeting'
 import Work from '../Work'
 import About from '../About'
 import Skills from '../Skills'
-import Resume from '../Resume'
+// import Resume from '../Resume'
 import Contact from '../Contact'
 
 const LandingPage = _ => {
@@ -15,7 +15,7 @@ const LandingPage = _ => {
       <Work />
       <About />
       <Skills />
-      <Resume />
+      {/* <Resume /> */}
       <Contact />
     </div>
   )
