@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = _ => {
   return (
-    <div className='sectionHeading' id='contact'>
+    <div className='section' id='contact'>
       <h1>Contact</h1>
       <h1>Let's work together!</h1>
       <span>email, with link mailto:sflores92886@gmail.com</span>
@@ -12,7 +12,7 @@ const Contact = _ => {
         <span>connect icon</span>
       </div>
       <div>
-        Made with <icon>❤</icon> by Sammi
+        Made with ❤ by Sammi
       </div>
     </div>
   )
