@@ -3,9 +3,9 @@ import React from 'react'
 const About = _ => {
   return (
     <div className='section' id='about'>
-      <span>Image goes here</span>
-      <h1>About Me</h1>
-      <p>This is all the info about me.</p>
+      <span id='about__image'>Image goes here</span>
+      <h1 id='about__title'>About Me</h1>
+      <p id='about__info'>This is all the info about me.</p>
     </div>
   )
 }

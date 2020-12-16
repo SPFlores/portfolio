@@ -1,5 +1,6 @@
 const projects = [
   {
+    type: 'Experience',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -8,6 +9,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -16,6 +18,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -24,6 +27,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -32,6 +36,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -40,6 +45,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -48,6 +54,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -56,6 +63,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
@@ -64,6 +72,7 @@ const projects = [
     picture: 'picturelink.jpeg'
   },
   {
+    type: 'Project',
     title: 'a thing',
     description: 'stuff',
     deployedLink: 'deployed.link',
