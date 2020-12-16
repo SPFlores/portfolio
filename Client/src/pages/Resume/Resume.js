@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = _ => {
   return (
-    <div className='sectionHeading'>
+    <div className='sectionHeading' id='resume'>
       <h1>Resume</h1>
       <p>
         Resume preview goes here. Have it link to other page displaying?

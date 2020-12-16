@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = _ => {
   return (
-    <div className='sectionHeading'>
+    <div className='sectionHeading' id='contact'>
       <h1>Contact</h1>
       <h1>Let's work together!</h1>
       <span>email, with link mailto:sflores92886@gmail.com</span>
