@@ -11,7 +11,7 @@ require('./Routes')(app)
 
 require('./config').sync()
   .then(_ => {
-    app.listen(process.env.PORT || 3009)
+    app.listen(process.env.PORT || 3006)
     console.log('server is working')
   })
   .catch(e => console.log(e))

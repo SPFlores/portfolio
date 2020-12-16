@@ -1,13 +1,19 @@
 import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
 const WorkPage = _ => {
   const [workState, setWorkState] = useState({
     something: false
   })
 
-  // useEffect(_ => {
-  //   setWorkState({ ...workState, something: !workState.something })
-  // }, [])
+  useEffect(_ => {
+    axios.get('/projects')
+      .then(({ data: projects }) => {
+        console.log(projects)
+      })
+      .catch(e => console.log(e))
+    // setWorkState({ ...workState, something: !workState.something })
+  }, [])
 
   const doSomething = _ => {
     console.log(workState.something)
