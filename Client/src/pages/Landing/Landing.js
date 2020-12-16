@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import Navbar from '../../components/Navbar/navbar'
+import Greeting from '../Greeting'
+import Work from '../Work'
+import About from '../About'
+import Skills from '../Skills'
+import Resume from '../Resume'
+import Contact from '../Contact'
 
 const LandingPage = _ => {
   return (
     <div>
-      <div className="topNav">Something here for the nav</div>
-      <div className="welcome">Multiple things here for the welcome</div>
-      <div className="work">Work goes here</div>
-      <div className="about">About info goes here</div>
-      <div className="skills">List skills here with level of proficiency</div>
-      <div className="professionslStatement">Professional statement goes here, or link to resume?</div>
-      <div className="contact">Contact info goes here</div>
+      <Navbar />
+      <Greeting />
+      <Work />
+      <About />
+      <Skills />
+      <Resume />
+      <Contact />
     </div>
   )
 }

@@ -1,9 +1,14 @@
 import React from 'react'
 
-const ResumePage = _ => {
+const Resume = _ => {
   return (
-    <div>This is the *Resume* page!</div>
+    <div className='sectionHeading'>
+      <h1>Resume</h1>
+      <p>
+        Resume preview goes here. Have it link to other page displaying?
+      </p>
+    </div>
   )
 }
 
-export default ResumePage
+export default Resume

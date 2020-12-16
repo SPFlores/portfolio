@@ -1,0 +1,22 @@
+.navbar {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.navbar__item, .navbar__link {
+  display: inline-block
+}
+
+#navbar__left {
+  text-align: left;
+  width: 25%
+}
+
+#navbar__right {
+  text-align: right;
+  width: 75%
+}
+
+.navbar__link {
+  margin: 10px
+}
