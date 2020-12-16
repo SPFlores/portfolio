@@ -9,7 +9,6 @@ const WorkPage = _ => {
   useEffect(_ => {
     axios.get('/projects')
       .then(({ data: projects }) => {
-        console.log(projects)
         setWorkState({ ...workState, projects })
       })
       .catch(e => console.log(e))
@@ -24,7 +23,7 @@ const WorkPage = _ => {
       <div>
         {workState.projects.length > 0 && workState.projects.map(project => {
           return (
-            <div id={project.id} className='project_card'>
+            <div id={project.id} key={project.id} className='project_card'>
               <h2>{project.name}</h2>
               <p>{project.description}</p>
               <p>{project.repoLink}</p>
