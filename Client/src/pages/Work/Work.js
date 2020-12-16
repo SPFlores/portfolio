@@ -3,34 +3,36 @@ import axios from 'axios'
 
 const WorkPage = _ => {
   const [workState, setWorkState] = useState({
-    something: false
+    projects: []
   })
 
   useEffect(_ => {
     axios.get('/projects')
       .then(({ data: projects }) => {
         console.log(projects)
+        setWorkState({ ...workState, projects })
       })
       .catch(e => console.log(e))
-    // setWorkState({ ...workState, something: !workState.something })
   }, [])
-
-  const doSomething = _ => {
-    console.log(workState.something)
-  }
-
-  const doSomethingElse = _ => {
-    setWorkState({ ...workState, something: !workState.something })
-  }
 
   return (
     <div>
       <div>
         This is the *Work* page!
       </div>
-      <button onClick={doSomething}>Click on me please</button>
       <br />
-      <button onClick={doSomethingElse}>No click on me</button>
+      <div>
+        {workState.projects.length > 0 && workState.projects.map(project => {
+          return (
+            <div id={project.id} className='project_card'>
+              <h2>{project.name}</h2>
+              <p>{project.description}</p>
+              <p>{project.repoLink}</p>
+              <p>{project.deployLink}</p>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
