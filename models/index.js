@@ -6,7 +6,7 @@ let Project = require('./projects.js')(sequelize, Sequelize)
 let Experience = require('./experiences.js')(sequelize, Sequelize)
 
 User.hasMany(Project)
-User.hasMany(Project)
+User.hasMany(Experience)
 Project.belongsTo(User)
 Experience.belongsTo(User)
 

@@ -1,14 +1,14 @@
-const { User } = require('../models')
+const { User, Project, Experience } = require('../models')
 
 module.exports = app => {
   app.get('/users', (req, res) => {
-    User.findAll()
+    User.findAll({ include: [Project, Experience] })
       .then(users => res.json(users))
       .catch(e => console.log(e))
   })
 
   app.get('/users/:id', (req, res) => {
-    User.findOne({ where: { id: req.params.id } })
+    User.findOne({ where: { id: req.params.id }, include: [Project, Experience] })
       .then(user => res.json(user))
       .catch(e => console.log(e))
   })
