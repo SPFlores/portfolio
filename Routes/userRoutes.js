@@ -35,7 +35,7 @@ module.exports = app => {
       })
   })
 
-  app.put('/users', (req, res) => {
+  app.put('/users/:id', (req, res) => {
     User.update(req.body, { where: { id: req.params.id } })
       .then(_ => res.sendStatus(200))
       .catch(e => console.log(e))

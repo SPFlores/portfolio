@@ -1,3 +1,3 @@
 module.exports = app => {
-  require('.')(app)
+  require('./userRoutes')(app)
 }
