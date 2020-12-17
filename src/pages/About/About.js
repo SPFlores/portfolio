@@ -5,7 +5,9 @@ import './index.css'
 const About = _ => {
   return (
     <div className='section' id='about'>
-      <img id='about__image' src={Picture} alt='a picture of Sammi' />
+      <div id='about__imageDiv'>
+        <img id='about__image' src={Picture} alt='Sammi' />
+      </div>
       <h1 id='about__title'>About Me</h1>
       <p id='about__info'>
         I am originally trained as a biologist, but found a deeper love for coding and development after I attended a full stack development boot camp in 2019. I had pursued a computer science minor while in college but ended up being unable to finish due to conflicting schedules with my major classes. After graduating, I began working in laboratories but never forgot my desire to learn development. After a few years of learning online, I decided to jump in with both feet and enrolled in a part-time but intense boot camp style course at University of California, Irvine. Learning to code while working a full time job was challenging to say the least, it taught me discipline, time management, and dedication. I learned to work smarter not harder, that Javascript can actually be fun, and that finding code bugs is a lot better than examining real bugs in a laboratory.
