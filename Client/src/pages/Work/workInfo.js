@@ -1,14 +1,12 @@
 import {
   Gifmaker,
-  Hangman,
   Nutrition,
   CraigsList,
   IMDB,
-  Avatar,
-  TrainSchedule,
   Trivia,
   Divercity,
-  Peruse
+  Peruse,
+  Portfolio
 } from './images'
 
 const projects = [
@@ -24,7 +22,7 @@ const projects = [
   {
     type: 'Project',
     title: 'Job Search Application',
-    description: `This is a front end React application that I made in a few days as an 'application' of sorts for a position at Divercity.io. It is a simple job search app that allows a user to search all jobs, filter jobs based on multiple criteria, and apply to jobs if logged in. It is currently not deployed, but a full stack, deployed version is in the works.`,
+    description: `This is a front end React application that I made in a few days as an 'application' of sorts for a job position. It is a simple job search app that allows a user to search all jobs, filter jobs based on multiple criteria, and apply to jobs if logged in. It is currently not deployed, but a full stack, deployed version is in the works.`,
     deployedLink: '',
     repoLink: 'https://github.com/SPFlores/perUse',
     skills: ['Javascript', 'React', 'HTML', 'CSS', 'API consumption'],
@@ -57,15 +55,15 @@ const projects = [
     skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
     picture: Trivia
   },
-  {
-    type: 'Project',
-    title: 'Supernatural Hangman',
-    description: 'This hangman has a bit of a spooky theme--the TV show Supernatural. All words are related to characters or things from the show. The application itself is all Javascript and taught me a lot about user input and storing information.',
-    deployedLink: 'https://spflores.github.io/Word-Guess-Game/',
-    repoLink: 'https://github.com/SPFlores/Word-Guess-Game',
-    skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
-    picture: Hangman
-  },
+  // {
+  //   type: 'Project',
+  //   title: 'Supernatural Hangman',
+  //   description: 'This hangman has a bit of a spooky theme--the TV show Supernatural. All words are related to characters or things from the show. The application itself is all Javascript and taught me a lot about user input and storing information.',
+  //   deployedLink: 'https://spflores.github.io/Word-Guess-Game/',
+  //   repoLink: 'https://github.com/SPFlores/Word-Guess-Game',
+  //   skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
+  //   picture: Hangman
+  // },
   {
     type: 'Project',
     title: 'Recipe and Nutrition Tracker',
@@ -75,15 +73,15 @@ const projects = [
     skills: ['Javascript', 'HTML', 'CSS', 'Materialize', 'API consumption', 'Firebase'],
     picture: Nutrition
   },
-  {
-    type: 'Project',
-    title: 'Avatar RPG Game',
-    description: `This game is all Javascript based and pits you against 3 other opponents in an RPG-style clicking game. The difficult elements to work out were the event listeners and the math that allows the game to be won by any player against any opponent, even while the opponents' attack power increases with each turn.`,
-    deployedLink: 'https://spflores.github.io/unit-4-game/',
-    repoLink: 'https://github.com/SPFlores/unit-4-game',
-    skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
-    picture: Avatar
-  },
+  // {
+  //   type: 'Project',
+  //   title: 'Avatar RPG Game',
+  //   description: `This game is all Javascript based and pits you against 3 other opponents in an RPG-style clicking game. The difficult elements to work out were the event listeners and the math that allows the game to be won by any player against any opponent, even while the opponents' attack power increases with each turn.`,
+  //   deployedLink: 'https://spflores.github.io/unit-4-game/',
+  //   repoLink: 'https://github.com/SPFlores/unit-4-game',
+  //   skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
+  //   picture: Avatar
+  // },
   {
     type: 'Project',
     title: 'Superhero .gif Generator',
@@ -92,6 +90,15 @@ const projects = [
     repoLink: 'https://github.com/SPFlores/GifMaker',
     skills: ['Javascript', 'API consumption', 'HTML', 'CSS', 'Materialize'],
     picture: Gifmaker
+  },
+  {
+    type: 'Project',
+    title: 'Old Portfolio',
+    description: 'This is the first portfolio I made of my classwork. I used Materialize for the styling and struggled mightily through any and all Javascript involved. Now, I look back on it to see how far I have come and how much more I can do.',
+    deployedLink: 'https://spflores.github.io/Materalize-Portfolio/',
+    repoLink: 'https://github.com/SPFlores/Materalize-Portfolio',
+    skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
+    picture: Portfolio
   }
 ]
 

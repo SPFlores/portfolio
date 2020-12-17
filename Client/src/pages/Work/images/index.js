@@ -12,6 +12,7 @@ import TrainSchedule from './train-schedule.png'
 import Trivia from './trivia.jpg'
 import Divercity from './divercity.png'
 import Peruse from './peruse.png'
+import Portfolio from './portfolio.png'
 
 export {
   Batman,
@@ -27,5 +28,6 @@ export {
   TrainSchedule,
   Trivia,
   Divercity,
-  Peruse
+  Peruse,
+  Portfolio
 }
