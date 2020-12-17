@@ -5,6 +5,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-image: url(../src/pages/Work/images/triangle-mosaic.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
