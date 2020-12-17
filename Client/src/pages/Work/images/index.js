@@ -10,6 +10,7 @@ import IMDB from './project-3.png'
 import Avatar from './rpg-game.jpg'
 import TrainSchedule from './train-schedule.png'
 import Trivia from './trivia.jpg'
+import Divercity from './divercity.png'
 
 export {
   Batman,
@@ -23,5 +24,6 @@ export {
   IMDB,
   Avatar,
   TrainSchedule,
-  Trivia
+  Trivia,
+  Divercity
 }

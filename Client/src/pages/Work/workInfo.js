@@ -6,7 +6,8 @@ import {
   IMDB,
   Avatar,
   TrainSchedule,
-  Trivia
+  Trivia,
+  Divercity
 } from './images'
 
 const projects = [
@@ -17,7 +18,7 @@ const projects = [
     deployedLink: 'divercity.io/score',
     repoLink: '',
     skills: ['Javascript', 'React', 'React hooks', 'Chart.js', 'Redux', 'Moment.js', 'HTML', 'CSS'],
-    picture: 'picturelink.jpeg'
+    picture: Divercity
   },
   {
     type: 'Project',
