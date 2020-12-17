@@ -13,7 +13,7 @@ const Contact = _ => {
         <span className='contact__socials--icon'>connect icon</span>
       </div>
       <div id='contact__madeby'>
-        Made with <span id='contact__madeby--icon'>❤</span> by Sammi
+        Made with <span id='contact__madeby--icon'>❤</span> by Sammi Flores
       </div>
     </div>
   )

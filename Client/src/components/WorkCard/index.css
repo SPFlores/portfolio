@@ -2,3 +2,20 @@
   width: 50%;
   margin-top: 30px;
 }
+
+.workCard__item {
+  margin: 8px auto;
+}
+
+.workCard__link, .workCard__link:visited {
+  margin: 0 8px;
+  color: black
+}
+
+.workCard__link:hover {
+  color: turquoise
+}
+
+.workCard__image {
+  height: 200px;
+}

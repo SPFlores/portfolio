@@ -2,7 +2,11 @@
   background: turquoise;
   margin: auto;
   width: 40%;
-  height: 250px;
+  border-radius: 55%;
+  -webkit-border-radius: 55%;
+  -moz-border-radius: 55%;
+  -ms-border-radius: 55%;
+  -o-border-radius: 55%;
 }
 
 #about__title {

@@ -1,84 +1,95 @@
+import {
+  Gifmaker,
+  Hangman,
+  Nutrition,
+  CraigsList,
+  IMDB,
+  Avatar,
+  TrainSchedule,
+  Trivia
+} from './images'
+
 const projects = [
   {
     type: 'Experience',
-    title: 'a thing',
+    title: 'Diversity Score',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
+    deployedLink: 'divercity.io/score',
+    repoLink: '',
+    skills: ['Javascript', 'React', 'React hooks', 'Chart.js', 'Redux', 'Moment.js', 'HTML', 'CSS'],
     picture: 'picturelink.jpeg'
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'Online Purchasing App',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://peaceful-hamlet-84638.herokuapp.com/',
+    repoLink: 'https://github.com/Pandapoc/DefinitelyNotCraigslist/tree/master',
+    skills: ['Javascript', 'MySQL', 'Sequelize', 'Express', 'MomentJS', 'HTML', 'CSS', 'Bluma.io', 'AWS storage', 'Heroku'],
+    picture: CraigsList
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'Movie Info and Watch App',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://damp-peak-16146.herokuapp.com/',
+    repoLink: 'https://github.com/the-incrudibles/DefinitelyNotIMDB',
+    skills: ['Javascript', 'React', 'React hooks', 'MongoDB', 'Mongoose', 'Express', 'API consumption', 'HTML', 'CSS', 'Materialize', 'Herkou', 'Passport'],
+    picture: IMDB
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'No Such Thing as a Trivia Game',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://spflores.github.io/TriviaGame/',
+    repoLink: 'https://github.com/SPFlores/TriviaGame',
+    skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
+    picture: Trivia
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'Supernatural Hangman',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://spflores.github.io/Word-Guess-Game/',
+    repoLink: 'https://github.com/SPFlores/Word-Guess-Game',
+    skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
+    picture: Hangman
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'Avatar RPG Game',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://spflores.github.io/unit-4-game/',
+    repoLink: 'https://github.com/SPFlores/unit-4-game',
+    skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
+    picture: Avatar
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'Superhero .gif Generator',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://spflores.github.io/GifMaker/',
+    repoLink: 'https://github.com/SPFlores/GifMaker',
+    skills: ['Javascript', 'API consumption', 'HTML', 'CSS', 'Materialize'],
+    picture: Gifmaker
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'Train Scheduler',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://spflores.github.io/Train-Scheduler/',
+    repoLink: 'https://github.com/SPFlores/Train-Scheduler',
+    skills: ['Javascript', 'Moment.js', 'HTML', 'CSS', 'Materialize', 'Firebase'],
+    picture: TrainSchedule
   },
   {
     type: 'Project',
-    title: 'a thing',
+    title: 'Recipe and Nutrition Tracker',
     description: 'stuff',
-    deployedLink: 'deployed.link',
-    repoLink: 'repo.link',
-    skills: ['JS', 'React'],
-    picture: 'picturelink.jpeg'
+    deployedLink: 'https://must-have-caffine-project.firebaseapp.com/',
+    repoLink: 'https://github.com/Pandapoc/Must-Have-Caffeine-Project',
+    skills: ['Javascript', 'HTML', 'CSS', 'Materialize', 'Firebase'],
+    picture: Nutrition
   }
 ]
 
