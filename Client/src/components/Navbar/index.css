@@ -32,3 +32,10 @@
 .navbar__link:hover {
   color: turquoise
 }
+
+@media (max-width: 600px) {
+  #navbar__left, #navbar__right {
+    width: 100%;
+    text-align: center
+  }
+}

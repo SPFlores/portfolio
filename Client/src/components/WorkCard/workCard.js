@@ -5,7 +5,9 @@ const WorkCard = ({ work }) => {
   return (
     <div id={work.title} key={work.title} className='workCard'>
       {work.type && <h3 class='workCard__item'>{work.type}</h3>}
-      {work.picture && <img src={work.picture} alt={work.title} class='workCard__image' />}
+      <div className='workCard__imageDiv'>
+        {work.picture && <img src={work.picture} alt={work.title} class='workCard__image' />}
+      </div>
       {work.title && <h4 class='workCard__item'>{work.title}</h4>}
       {work.description && <p class='workCard__item'>{work.description}</p>}
       <div>

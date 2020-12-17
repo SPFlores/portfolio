@@ -11,6 +11,7 @@ import Avatar from './rpg-game.jpg'
 import TrainSchedule from './train-schedule.png'
 import Trivia from './trivia.jpg'
 import Divercity from './divercity.png'
+import Peruse from './peruse.png'
 
 export {
   Batman,
@@ -25,5 +26,6 @@ export {
   Avatar,
   TrainSchedule,
   Trivia,
-  Divercity
+  Divercity,
+  Peruse
 }

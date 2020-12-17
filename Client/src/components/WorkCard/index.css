@@ -1,6 +1,7 @@
 .workCard {
-  width: 50%;
+  width: 45%;
   margin-top: 30px;
+  margin: 10px auto;
 }
 
 .workCard__item {
@@ -9,13 +10,26 @@
 
 .workCard__link, .workCard__link:visited {
   margin: 0 8px;
-  color: black
+  color: #004d40
 }
 
 .workCard__link:hover {
   color: turquoise
 }
 
-.workCard__image {
+.workCard__imageDiv {
   height: 200px;
+  margin: 10px auto
+}
+
+.workCard__image {
+  height: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .workCard {
+    width: 90%;
+    margin: 30px auto;
+  }
 }

@@ -1,8 +1,14 @@
 .skillCard {
-  width: 40%;
+  width: 30%;
   margin: 20px auto;
 }
 
 .skillCard__image {
   height: 35px
+}
+
+@media (max-width: 600px) {
+  .skillCard {
+    width: 50%
+  }
 }
