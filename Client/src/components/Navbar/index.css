@@ -1,9 +1,10 @@
 .navbar {
-  color: gray;
   margin-bottom: 10px;
   width: 85%;
   margin: auto;
   margin-top: 80px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .navbar__item, .navbar__link {
@@ -12,12 +13,12 @@
 
 #navbar__left {
   text-align: left;
-  width: 25%
+  width: 50%;
 }
 
 #navbar__right {
   text-align: right;
-  width: 75%
+  width: 50%
 }
 
 .navbar__link, .navbar__link:visited {

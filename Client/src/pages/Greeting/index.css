@@ -3,18 +3,18 @@
 }
 
 #greeting__name {
-  margin: 10px
+  margin: 25px
 }
 
 #greeting__description {
   width: 50%;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 18px;
 }
 
 #greeting__info {
-  margin: 10px;
+  margin: 20px;
   width: 80%;
   margin: auto
 }
@@ -31,5 +31,5 @@
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  margin: 15px;
+  margin: 20px;
 }

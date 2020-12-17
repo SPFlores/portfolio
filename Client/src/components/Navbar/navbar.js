@@ -4,7 +4,7 @@ import './index.css'
 const Navbar = _ => {
   return (
     <div className='navbar'>
-      <div id='navbar__left' className='navbar__item'>Portfolio</div>
+      <div id='navbar__left' className='navbar__item'>Portfolio || Samantha (Sammi) Flores</div>
       <div id='navbar__right' className='navbar__item'>
         <a className='navbar__link' href='#projects'>Projects</a>
         <a className='navbar__link' href='#about'>About</a>
