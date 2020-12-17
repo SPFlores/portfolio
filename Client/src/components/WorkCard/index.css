@@ -1,7 +1,6 @@
 .workCard {
   width: 45%;
-  margin-top: 30px;
-  margin: 10px auto;
+  margin: 30px auto 10px;
 }
 
 .workCard__item {

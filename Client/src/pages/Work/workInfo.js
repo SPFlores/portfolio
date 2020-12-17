@@ -24,7 +24,7 @@ const projects = [
   {
     type: 'Project',
     title: 'Job Search Application',
-    description: `This is a front end React application that I made in a few days as an 'application' of sorts for a position at Divercity.io. It is a simple job search aplication that allows a user to search all jobs, filter jobs based on multiple criteria, and apply to jobs if logged in. It is currently not deployed, but a full stack, deployed version is in the works.`,
+    description: `This is a front end React application that I made in a few days as an 'application' of sorts for a position at Divercity.io. It is a simple job search app that allows a user to search all jobs, filter jobs based on multiple criteria, and apply to jobs if logged in. It is currently not deployed, but a full stack, deployed version is in the works.`,
     deployedLink: '',
     repoLink: 'https://github.com/SPFlores/perUse',
     skills: ['Javascript', 'React', 'HTML', 'CSS', 'API consumption'],
@@ -41,8 +41,8 @@ const projects = [
   },
   {
     type: 'Project',
-    title: 'Movie Info and Watch App',
-    description: `This full stack application was completed with a team of 5 other people by my side. I worked mostly on the search section, on the Javascript to handle adding movies to a user's watchlist, and consuming the outside API to populate our information pages. I also had a hand in setting up the database and laying out the models.`,
+    title: 'Movie Info and Watch List App',
+    description: `This full stack application was completed with a team of 5 other people by my side. I worked mostly on the search section, on the Javascript to handle adding movies to a user's watch list, and consuming the outside API to populate our information pages. I also had a hand in setting up the database and laying out the models.`,
     deployedLink: 'https://damp-peak-16146.herokuapp.com/',
     repoLink: 'https://github.com/the-incrudibles/DefinitelyNotIMDB',
     skills: ['Javascript', 'React', 'React hooks', 'MongoDB', 'Mongoose', 'Express', 'Node', 'API consumption', 'HTML', 'CSS', 'Materialize', 'Herkou', 'Passport'],
@@ -78,7 +78,7 @@ const projects = [
   {
     type: 'Project',
     title: 'Avatar RPG Game',
-    description: `This game is all Javascript based and pits you against 3 other oponents in an RPG-style clicking game. The difficult elements to work out were the event listeners and the math that allows the game to be won by any player against any opponent, even while the opponents' attack power increases with each turn.`,
+    description: `This game is all Javascript based and pits you against 3 other opponents in an RPG-style clicking game. The difficult elements to work out were the event listeners and the math that allows the game to be won by any player against any opponent, even while the opponents' attack power increases with each turn.`,
     deployedLink: 'https://spflores.github.io/unit-4-game/',
     repoLink: 'https://github.com/SPFlores/unit-4-game',
     skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
