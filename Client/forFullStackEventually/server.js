@@ -7,9 +7,9 @@ app.use(express.static(join(__dirname, 'client', 'build')))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-require('./Routes')(app)
+require('../../Routes')(app)
 
-require('./config').sync()
+require('../../config').sync()
   .then(_ => {
     app.listen(process.env.PORT || 3006)
     console.log('server is working')
