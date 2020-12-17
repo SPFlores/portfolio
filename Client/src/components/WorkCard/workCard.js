@@ -9,8 +9,8 @@ const WorkCard = ({ work }) => {
       {work.title && <h4 class='workCard__item'>{work.title}</h4>}
       {work.description && <p class='workCard__item'>{work.description}</p>}
       <div>
-        {work.repoLink && <a class='workCard__link' id='workCard__repoLink' href={work.repoLink}>Repository</a>}
-        {work.deployedLink && <a class='workCard__link' id='workCard__deployedLink' href={work.deployedLink}>Deployed</a>}
+        {work.repoLink && <a class='workCard__link' id='workCard__repoLink' href={work.repoLink} target='_blank' rel='noreferrer'>Repository</a>}
+        {work.deployedLink && <a class='workCard__link' id='workCard__deployedLink' href={work.deployedLink} target='_blank' rel='noreferrer'>Deployed</a>}
       </div>
       {work.skills.length > 0 && <p class='workCard__item'>Skills used: {work.skills.join(', ')}</p>}
     </div>

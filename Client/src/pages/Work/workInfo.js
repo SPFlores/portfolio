@@ -26,7 +26,7 @@ const projects = [
     description: 'stuff',
     deployedLink: 'https://peaceful-hamlet-84638.herokuapp.com/',
     repoLink: 'https://github.com/Pandapoc/DefinitelyNotCraigslist/tree/master',
-    skills: ['Javascript', 'MySQL', 'Sequelize', 'Express', 'MomentJS', 'HTML', 'CSS', 'Bluma.io', 'AWS storage', 'Heroku'],
+    skills: ['Javascript', 'MySQL', 'Sequelize', 'Express', 'Node', 'MomentJS', 'HTML', 'CSS', 'Bluma.io', 'AWS storage', 'Heroku'],
     picture: CraigsList
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     description: 'stuff',
     deployedLink: 'https://damp-peak-16146.herokuapp.com/',
     repoLink: 'https://github.com/the-incrudibles/DefinitelyNotIMDB',
-    skills: ['Javascript', 'React', 'React hooks', 'MongoDB', 'Mongoose', 'Express', 'API consumption', 'HTML', 'CSS', 'Materialize', 'Herkou', 'Passport'],
+    skills: ['Javascript', 'React', 'React hooks', 'MongoDB', 'Mongoose', 'Express', 'Node', 'API consumption', 'HTML', 'CSS', 'Materialize', 'Herkou', 'Passport'],
     picture: IMDB
   },
   {
