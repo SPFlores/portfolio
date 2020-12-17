@@ -1,0 +1,6 @@
+#skills__cards {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+}

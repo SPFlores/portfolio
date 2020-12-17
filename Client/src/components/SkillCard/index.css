@@ -1,4 +1,8 @@
 .skillCard {
-  width: 75%;
+  width: 40%;
   margin: 20px auto;
+}
+
+.skillCard__image {
+  height: 35px
 }
