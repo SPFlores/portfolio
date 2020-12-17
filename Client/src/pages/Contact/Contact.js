@@ -1,4 +1,5 @@
 import React from 'react'
+import { Github, Instagram, LinkedIn } from './images'
 import './index.css'
 
 const Contact = _ => {
@@ -8,9 +9,9 @@ const Contact = _ => {
       <h2 id='contact__greeting'>Let's connect!</h2>
       <a id='contact__email' href='mailto:sflores92886@gmail.com' target='_blank' rel='noreferrer'>sflores92886@gmail.com</a>
       <div id='contact__socials'>
-        <span className='contact__socials--icon'>connect icon</span>
-        <span className='contact__socials--icon'>connect icon</span>
-        <span className='contact__socials--icon'>connect icon</span>
+        <a className='contact__socials--icon' href='https://github.com/SPFlores' target='_blank' rel='noreferrer'><img src={Github} alt='github icon' class='contact__icon' /></a>
+        <a className='contact__socials--icon' href='https://www.linkedin.com/in/samantha-flores-she-her-313024112/' target='_blank' rel='noreferrer'><img src={LinkedIn} alt='linkedin icon' class='contact__icon' /></a>
+        <a className='contact__socials--icon' href='https://www.instagram.com/samurai_flo/' target='_blank' rel='noreferrer'><img src={Instagram} alt='instagram icon' class='contact__icon' /></a>
       </div>
       <div id='contact__madeby'>
         Made with <span id='contact__madeby--icon'>❤</span> by Sammi Flores
