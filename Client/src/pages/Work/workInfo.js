@@ -68,8 +68,17 @@ const projects = [
   },
   {
     type: 'Project',
+    title: 'Recipe and Nutrition Tracker',
+    description: 'A nutritional application that allows the user to search for the nutrition information about food items. It also offers a recipe search as well, with a tie in to the Youtube API.',
+    deployedLink: 'https://must-have-caffine-project.firebaseapp.com/',
+    repoLink: 'https://github.com/Pandapoc/Must-Have-Caffeine-Project',
+    skills: ['Javascript', 'HTML', 'CSS', 'Materialize', 'API consumption', 'Firebase'],
+    picture: Nutrition
+  },
+  {
+    type: 'Project',
     title: 'Avatar RPG Game',
-    description: 'stuff',
+    description: `This game is all Javascript based and pits you against 3 other oponents in an RPG-style clicking game. The difficult elements to work out were the event listeners and the math that allows the game to be won by any player against any opponent, even while the opponents' attack power increases with each turn.`,
     deployedLink: 'https://spflores.github.io/unit-4-game/',
     repoLink: 'https://github.com/SPFlores/unit-4-game',
     skills: ['Javascript', 'HTML', 'CSS', 'Materialize'],
@@ -78,20 +87,11 @@ const projects = [
   {
     type: 'Project',
     title: 'Superhero .gif Generator',
-    description: 'stuff',
+    description: 'A simple gif generator with a superhero theme using the Gify API. Each gif is paused upon loading and can be unpaused with a click. Javascript based, this is a fairly straightforward application.',
     deployedLink: 'https://spflores.github.io/GifMaker/',
     repoLink: 'https://github.com/SPFlores/GifMaker',
     skills: ['Javascript', 'API consumption', 'HTML', 'CSS', 'Materialize'],
     picture: Gifmaker
-  },
-  {
-    type: 'Project',
-    title: 'Recipe and Nutrition Tracker',
-    description: 'stuff',
-    deployedLink: 'https://must-have-caffine-project.firebaseapp.com/',
-    repoLink: 'https://github.com/Pandapoc/Must-Have-Caffeine-Project',
-    skills: ['Javascript', 'HTML', 'CSS', 'Materialize', 'Firebase'],
-    picture: Nutrition
   }
 ]
 
