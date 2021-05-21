@@ -1,41 +1,43 @@
 .navbar {
   margin-bottom: 10px;
-  width: 85%;
-  margin: auto;
-  margin-top: 80px;
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
-}
-
-.navbar__item, .navbar__link {
-  display: inline-block
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background: rgb(68, 67, 73, 0.85);
+  padding: 10px 0;
 }
 
 #navbar__left {
-  text-align: left;
-  width: 50%;
+  margin: 8px 0 8px 40px;
 }
 
 #navbar__right {
-  text-align: right;
-  width: 50%
+  margin-right: 40px;
+}
+
+.navbar__item, .navbar__link {
+  display: inline-block;
 }
 
 .navbar__link, .navbar__link:visited {
-  margin: 8px;
-  font-size: 14px;
+  margin: 8px 20px;
+  font-size: 16px;
   padding: 0px;
   color: inherit;
   text-decoration: none;
 }
 
 .navbar__link:hover {
-  color: turquoise
+  color: #03f8cf
 }
 
 @media (max-width: 600px) {
   #navbar__left, #navbar__right {
     width: 100%;
-    text-align: center
+    text-align: center;
   }
 }

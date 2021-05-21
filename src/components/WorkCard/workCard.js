@@ -9,7 +9,7 @@ const WorkCard = ({ work }) => {
         {work.picture && <img src={work.picture} alt={work.title} class='workCard__image' />}
       </div>
       {work.title && <h4 class='workCard__item'>{work.title}</h4>}
-      {work.description && <p class='workCard__item'>{work.description}</p>}
+      {work.description && <p class='workCard__item' id='workCard__p'>{work.description}</p>}
       <div>
         {work.repoLink && <a class='workCard__link' id='workCard__repoLink' href={work.repoLink} target='_blank' rel='noreferrer'>Repository</a>}
         {work.deployedLink && <a class='workCard__link' id='workCard__deployedLink' href={work.deployedLink} target='_blank' rel='noreferrer'>Deployed</a>}

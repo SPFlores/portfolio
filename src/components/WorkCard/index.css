@@ -1,24 +1,28 @@
 .workCard {
-  width: 45%;
-  margin: 30px auto 10px;
+  max-width: 40%;
+  margin: 30px 0 10px;
 }
 
 .workCard__item {
-  margin: 8px auto;
+  margin: 16px auto;
+}
+
+#workCard__p {
+  max-width: 660px;
 }
 
 .workCard__link, .workCard__link:visited {
-  margin: 0 8px;
-  color: #004d40
+  margin: 0 16px;
+  color: #03a187
 }
 
 .workCard__link:hover {
-  color: turquoise
+  color: #03f8cf
 }
 
 .workCard__imageDiv {
   height: 200px;
-  margin: 10px auto
+  margin: 20px auto 40px;
 }
 
 .workCard__image {

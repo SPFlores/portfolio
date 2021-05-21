@@ -1,35 +1,35 @@
 #greeting {
-  margin-top: 60px
+  margin-top: 150px
 }
 
 #greeting__name {
-  margin: 25px
+  margin: 50px
 }
 
 #greeting__description {
   width: 50%;
   margin: auto;
-  margin-bottom: 20px;
-  font-size: 18px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 
 #greeting__info {
-  margin: 20px;
-  width: 80%;
+  margin: 30px;
+  width: 70%;
   margin: auto
 }
 
 #greeting__button, #greeting__button:visited {
   display: inline-block;
-  background: black;
+  background: #36353A;
   text-decoration: none;
   color: white;
-  padding: 6px 15px;
+  padding: 15px 30px;
   border: none;
   border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  margin: 20px;
+  margin: 40px;
+}
+
+#greeting__button:hover {
+  color: #418A7E;
 }

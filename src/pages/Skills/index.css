@@ -3,4 +3,13 @@
   width: 90%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#skills__header {
+  margin: 40px 0;
+}
+
+#skills {
+  margin-top: 150px;
 }

@@ -1,8 +1,6 @@
 import Batman from './batman.jpg'
-import CirclesDark from './circles-dark.png'
 import Gifmaker from './gifmaker.png'
 import Hangman from './hangman_spn.jpg'
-import Oriental from './oriental.png'
 import Prism from './prism.png'
 import Nutrition from './project-1.png'
 import CraigsList from './project-2.png'
@@ -13,13 +11,12 @@ import Trivia from './trivia.jpg'
 import Divercity from './divercity.png'
 import Peruse from './peruse.png'
 import Portfolio from './portfolio.png'
+import Landing from './landing.gif'
 
 export {
   Batman,
-  CirclesDark,
   Gifmaker,
   Hangman,
-  Oriental,
   Prism,
   Nutrition,
   CraigsList,
@@ -29,5 +26,6 @@ export {
   Trivia,
   Divercity,
   Peruse,
-  Portfolio
+  Portfolio,
+  Landing
 }

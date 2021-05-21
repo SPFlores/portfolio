@@ -1,27 +1,31 @@
 #contact {
-  margin-bottom: 100px
+  margin-bottom: 50px
 }
 
 #contact__greeting {
-  margin: 10px auto;
+  margin: 40px auto 20px;
 }
 
 #contact__email, #contact__email:visited {
-  color: #004d40;
+  color: #03A187;
+}
+
+#contact__email:hover {
+  color: #03f8cf
 }
 
 #contact__socials {
-  margin: 10px auto;
+  margin: 25px auto 20px;
 }
 
 .contact__socials--icon {
-  margin: 10px
+  margin: 15px
 }
 
 #contact__madeby--icon {
-  color: turquoise
+  color: #418A7E;
 }
 
 .contact__icon {
-  height: 20px
+  height: 25px
 }

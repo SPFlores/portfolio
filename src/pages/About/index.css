@@ -7,24 +7,22 @@
 #about__image {
   height: 100%;
   border-radius: 55%;
-  -webkit-border-radius: 55%;
-  -moz-border-radius: 55%;
-  -ms-border-radius: 55%;
-  -o-border-radius: 55%;
 }
 
 #about__title {
-  margin: 15px auto;
+  margin: 40px auto;
 }
 
 #about__info {
   width: 80%;
-  margin: auto
+  margin: auto;
 }
 
 .about__line {
   width: 50%;
   margin: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: 3px solid #88878D;
+  border-radius: 3px;
 }

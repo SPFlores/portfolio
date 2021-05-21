@@ -6,6 +6,7 @@ import MySQL from './mysql_logo.png'
 import Node from './node_logo.png'
 import React from './react_logo.png'
 import SASS from './sass_logo.png'
+import Next from './next.svg'
 
 export {
   CSS,
@@ -15,5 +16,6 @@ export {
   MySQL,
   Node,
   React,
-  SASS
+  SASS,
+  Next
 }
